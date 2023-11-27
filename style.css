@@ -1,0 +1,116 @@
+body{
+    background-color: hsl(218, 23%, 16%) ;
+    font-family: 'Manrope', sans-serif;    
+}
+.card-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .card{
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .card-header{
+    color:hsl(150, 100%, 66%);
+    font-family: sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+  .card-body{
+    z-index: 0;
+    color:  hsl(193, 38%, 86%);
+    margin: 10px;
+  }
+  .icon-dice{
+    display: flex;
+    justify-content: center;
+    margin-top: -16px;
+  }
+  button{
+    border-radius: 40px ;
+    z-index: 99;
+    background-color: hsl(150, 100%, 66%);
+    padding: 20px;
+  }
+  .buton:hover{
+    box-shadow: 0px 0px 20px 4px hsl(150, 100%, 66%) ;
+  } 
+
+  .divider-desktop{
+    width: -webkit-fill-available;
+    padding: 10px;
+}
+@media (max-width: 1600px) {
+    .card{
+        max-width: 32rem;
+    }
+ }
+
+ /* Mobile Responsive */
+ @media (max-width: 508px) {
+  .card{
+    width: 18rem;
+}
+button{
+  border-radius: 40px ;
+  z-index: 99;
+  background-color: hsl(150, 100%, 66%);
+  padding: 7px !important;
+  width: 50px !important;
+  height: 42px !important;
+}
+.iconDice{
+  width: 19px !important;
+  height: 19px !important;
+}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*- Light Cyan: hsl(193, 38%, 86%) ++
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%) ++
+- Dark Blue: hsl(218, 23%, 16%) OK. + */
